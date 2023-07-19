@@ -124,19 +124,19 @@
                     </h2>
                     <div class="social-icon">
                         <a href="#">
-                            <img src="../assets/images/img/footer-facebook.png" alt="Facebook logo">
+                            <img src="{{ Vite::asset ('resources/img/footer-facebook.png') }}" alt="Facebook logo">
                         </a>
                         <a href="#">
-                            <img src="../assets/images/img/footer-twitter.png" alt="Facebook logo">
+                            <img src="{{ Vite::asset ('resources/img/footer-twitter.png') }}" alt="Twitter logo">
                         </a>
                         <a href="#">
-                            <img src="../assets/images/img/footer-youtube.png" alt="Facebook logo">
+                            <img src="{{ Vite::asset ('resources/img/footer-youtube.png') }}" alt="Youtube logo">
                         </a>
                         <a href="#">
-                            <img src="../assets/images/img/footer-pinterest.png" alt="Facebook logo">
+                            <img src="{{ Vite::asset ('resources/img/footer-pinterest.png') }}" alt="Pinterest logo">
                         </a>
                         <a href="#">
-                            <img src="../assets/images/img/footer-periscope.png" alt="Facebook logo">
+                            <img src="{{ Vite::asset ('resources/img/footer-periscope.png') }}" alt="Periscope logo">
                         </a>
                     </div>
                 </div>
