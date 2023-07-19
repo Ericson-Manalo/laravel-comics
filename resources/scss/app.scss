@@ -213,12 +213,15 @@ footer{
                     padding-bottom: 1rem;
                 }
 
-                ul.list li{
-                    margin-bottom: .3rem;
-                    font-size: .9rem;
-                    color: $darkText;
-                }
+                ul.list {
+                    padding-left: 0;
 
+                    li{
+                        margin-bottom: .3rem;
+                        font-size: .9rem;
+                        color: $darkText;
+                    }
+                }
             }
         }
 
