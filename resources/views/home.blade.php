@@ -37,3 +37,9 @@
         CURRENT SERIES
     </h2>
 @endsection
+
+
+@section('section')
+
+
+@endsection
