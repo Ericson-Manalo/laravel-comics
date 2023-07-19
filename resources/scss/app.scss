@@ -186,6 +186,115 @@ section{
 
 
 
+//////////////////////////////////////////////
+
+
+footer{
+    background-image: url('../assets/images/img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .upper-side{
+        display: flex;
+        justify-content: center;
+        color: $whiteText;
+
+        div.upper-footer{
+            width: 1200px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            div.list-item{
+                display: flex;
+                padding: 3rem 0;
+
+                div h3{
+                    padding-bottom: 1rem;
+                }
+
+                ul.list li{
+                    margin-bottom: .3rem;
+                    font-size: .9rem;
+                    color: $darkText;
+                }
+
+            }
+        }
+
+        div.logo-item{
+            height: 100%;
+            width: 563px;
+            background-image: url('../assets/images/img/dc-logo-bg.png');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        div.lower-side{
+            display: flex;
+            justify-content: center;
+            background-color: $greyBG;
+            padding: 2.6rem;
+
+            div .lower-footer{
+                width: 1200px;
+                @include centering(space-between, center);
+                display: flex;
+                color: $whiteText;
+
+                div .sign-up{
+                    padding: 1rem;
+                    border: 2px solid $lightblue;
+                }
+
+                .social-side{
+                    width: 40%;
+                    justify-content: space-between;
+
+                    h2.follow{
+                        color: $lightblue;
+                        align-items: center;
+                        display: flex;
+                    }
+
+                    div .social-icon{
+                        width: 55%;
+                        justify-content: space-around;
+                        display: flex;
+                    }
+                    
+                }
+            }
+        }
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
