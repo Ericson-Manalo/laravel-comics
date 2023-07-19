@@ -5,7 +5,5 @@
 
 
 @section('main-content')
-    <h1>
-        Congratulation, it works!
-    </h1>
+    @dd($navbarLinks)
 @endsection
