@@ -3,9 +3,11 @@
         <img src="{{ Vite::asset ('resources/img/dc-logo.png') }}" alt="Dc Main Logo">
         <nav class="nav-bar">
             <ul>
-                <li>
-                    home
+            @foreach ($navbarLinks as $link)
+                <li class="{{ ($link['active']) ? 'active' : ''}}">
+                    {{$link['text']}}
                 </li>
+                @endforeach
             </ul>
         </nav>
     </div>
