@@ -1,1 +1,83 @@
+@use './partials/mixins' as *;
+@use './partials/variables' as *;
 @import "~bootstrap/scss/bootstrap";
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 800px;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul li{
+    text-transform: uppercase;
+    margin-right: 1rem;
+    font-size: 0.9rem;
+}
+
+.flex{
+    display: flex;
+}
+
+.margin-right{
+    margin-right: 2rem;
+}
+
+.margin-top{
+    margin-top: 1.2rem;
+}
+
+
+///////////////////////////
+
+header{
+    display: flex;
+    justify-content: center;
+
+    div.header-section{
+        width: 1200px;
+        height: 100px;
+        @include centering(space-between, center);
+
+        div.header-section img{
+            width: 75px;
+            height: 75px;
+        }
+
+        nav{
+            height: 100%;
+        }
+        
+        nav ul{
+            display: flex;
+            height: 100%;
+            align-items: center;
+        }
+        
+        ul li{
+            height: 100%;
+            align-items: center;
+            display: flex;
+            border-bottom: 3px solid white;
+            cursor:pointer;
+        }
+        
+        nav ul li.active{
+            color: $lightblue;
+            border-bottom: 3px solid $lightblue;
+        
+        }
+        
+        
+        li:active{
+            color: $lightblue;
+            border-bottom: 3px solid $lightblue;
+            }
+    }
+}
+
+
+
