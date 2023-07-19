@@ -13,9 +13,7 @@
         @yield('main-content')
     </main>
 
-    <section>
-        @yield('section')
-    </section>
+    @include('partials.section')
 
 
 
