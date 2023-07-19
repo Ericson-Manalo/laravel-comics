@@ -79,5 +79,67 @@ header{
     }
 }
 
+////////////////////////////////////
+
+main{
+    background-color: $darkBg;
+    position: relative;
+
+    div.jumbotron{
+        background-image: url('../img/jumbotron.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 430px;
+    }
+
+    div.main-content{
+        display: flex;
+        justify-content: center;
+        padding: 3rem 0;
+
+        section.main-section{
+            width: 1200px;
+            background-color: $darkBg;
+        }
+        
+        div.card-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    div.load-btn{
+        justify-content: center;
+        display: flex;
+        color: $whiteText;
+        padding-bottom: 2rem;
+
+        div p.load-more{
+            background-color: $lightblue;
+            padding: 1rem 3rem;
+            font-weight: bold;
+        }
+    }
+
+    h2{
+        position: absolute;
+        left: 8%;
+        bottom: 57%;
+        color: $whiteText;
+        font-size: 1.6rem;
+        background-color: $lightblue;
+        padding: .8rem 1rem;
+    }
+
+
+}
+
+
+
+
+
+
+
 
 
