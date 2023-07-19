@@ -151,9 +151,42 @@ main{
         background-color: $lightblue;
         padding: .8rem 1rem;
     }
-
-
 }
+
+
+/////////////////////////////////7
+
+section{
+    display: flex;
+    background-color:$lightblue;
+    display: flex;
+    @include centering(center, center);
+    color: $whiteText;
+    font-size: .9rem;
+
+    div.main-section{
+        width: 1200px;
+        display: flex;
+        justify-content: space-around;
+        padding: 3rem 0;
+
+        div.item-container img{
+            width: 1200px;
+            width: 42px;
+            height: 50px;
+        }
+        
+        div.item-container p{
+            align-items: center;
+            display: flex;
+            margin-left: 1rem;
+        }
+    }
+}
+
+
+
+
 
 
 
